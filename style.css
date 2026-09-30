@@ -686,9 +686,13 @@ li:hover i {
 
 /* Les descriptions d'expérience doivent rester en paragraphes continus. */
 .item li {
-    display: block;
+    display: block !important;
+    flex: none;
+    width: 100%;
     position: relative;
     padding-left: 1.25rem;
+    white-space: normal;
+    word-spacing: normal;
 }
 
 .item li::before {
