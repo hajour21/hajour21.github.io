@@ -662,9 +662,9 @@ li {
     padding-left: 0;
     margin-bottom: 0.75rem;
     transition: var(--transition);
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
+    display: block !important;
+    width: 100%;
+    white-space: normal;
 }
 
 li i {
